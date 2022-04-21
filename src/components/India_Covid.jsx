@@ -5,9 +5,9 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "../App.css";
 import { addData, setStateData } from "../Redux/actions";
-import { BarChart, Bar, CartesianGrid, XAxis, YAxis } from "recharts";
+import { BarChart, Bar, XAxis, YAxis } from "recharts";
 
-export const India_Covid = () => {
+export const IndiaCovid = () => {
   let { state, confirmedCases, discharged, deaths } = useSelector(
     (store) => store
   );
